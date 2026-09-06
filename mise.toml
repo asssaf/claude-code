@@ -1,0 +1,2 @@
+[tools]
+node = { version = "24.18.0", postinstall = "node --version" }
