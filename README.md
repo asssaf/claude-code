@@ -15,7 +15,7 @@ A Docker container for [Claude Code](https://claude.ai/code) built on `debian:tr
 ## Build
 
 ```bash
-docker build -f docker/Dockerfile -t claude-code:latest .
+docker build -t claude-code:latest docker/
 ```
 
 ## Usage
