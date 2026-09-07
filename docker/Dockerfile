@@ -39,8 +39,8 @@ WORKDIR /home/$GUEST_USER/work
 ENV PATH="/home/${GUEST_USER}/.local/bin:${PATH}" \
     DISABLE_AUTOUPDATER=1
 
-# Install Claude Code via official native installer
-RUN curl -fsSL https://claude.ai/install.sh | bash
+ARG CLAUDE_VERSION=latest
+RUN curl -fsSL https://downloads.claude.ai/claude-code-releases/bootstrap.sh | bash -s -- ${CLAUDE_VERSION}
 
 # Entrypoint handles startup hooks
 ENTRYPOINT ["/entrypoint.sh"]
