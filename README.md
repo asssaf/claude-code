@@ -1,5 +1,8 @@
 # Claude Code Docker Container
 
+[![Docker CI](https://github.com/asssaf/claude-code/actions/workflows/docker-ci.yml/badge.svg)](https://github.com/asssaf/claude-code/actions/workflows/docker-ci.yml)
+[![Latest Image Version](https://img.shields.io/github/v/tag/asssaf/claude-code?color=blue&label=version&sort=semver)](https://github.com/asssaf/claude-code/pkgs/container/claude-code)
+
 A Docker container for [Claude Code](https://claude.ai/code) built on `debian:trixie-slim` using Anthropic's official native installer (without Node.js).
 
 ## Features
