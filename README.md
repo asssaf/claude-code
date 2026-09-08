@@ -5,6 +5,10 @@
 
 A Docker container for [Claude Code](https://claude.ai/code) built on `debian:trixie-slim` using Anthropic's official native installer (without Node.js).
 
+<img width="1834" height="667" alt="claude-code" src="https://github.com/user-attachments/assets/0d33466e-b5e5-4d58-8ab8-a3c04e59daf0" />
+
+---
+
 ## Features
 
 - **Base Image:** `debian:trixie-slim`
