@@ -12,6 +12,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     git \
     jq \
     less \
+    libatomic1 \
     procps \
     ripgrep \
     sudo \
